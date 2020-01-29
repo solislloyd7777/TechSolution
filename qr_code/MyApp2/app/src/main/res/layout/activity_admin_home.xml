@@ -21,6 +21,10 @@
             android:layout_height="60dp"
             android:id="@+id/admin"
             android:text="Admin Home"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="#E91E63"
+            android:layout_marginBottom="100dp"
             android:gravity="center"/>
 
         <LinearLayout
@@ -38,7 +42,7 @@
                     android:layout_width="90dp"
                     android:layout_height="50dp"
                     android:id="@+id/present"
-                    android:background="@drawable/button_round"
+                    android:background="@drawable/button_rounded"
                     android:text="PRESENT"/>
 
             </LinearLayout>
@@ -52,7 +56,7 @@
                     android:layout_width="90dp"
                     android:layout_height="50dp"
                     android:id="@+id/late"
-                    android:background="@drawable/button_round"
+                    android:background="@drawable/button_rounded"
                     android:text="LATE"/>
 
             </LinearLayout>
@@ -69,13 +73,12 @@
                 android:layout_width="90dp"
                 android:layout_height="50dp"
                 android:id="@+id/enable"
-                android:background="@drawable/button_round"
+                android:background="@drawable/button_rounded"
                 android:text="Enabled"/>
 
         </LinearLayout>
 
     </LinearLayout>
-
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -83,8 +86,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@drawable/bluesplash"
-        app:headerLayout="@layout/nav_header"
+        app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_my_navigate_drawer" />
 
 

@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">Event Manager</string>
     <string name="title_activity_my_navigate">my_navigate</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Event Manager</string>
+    <string name="nav_header_subtitle">techscience7777.wixsite.com/techsolution</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 

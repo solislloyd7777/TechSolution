@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#9FA29D">
+        android:layout_marginBottom="50dp"
+        android:background="#C3C4BE">
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -40,32 +41,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/add_subject"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/button_round"
-        android:layout_marginBottom="10dp"
-        android:text="+ Subjects"/>
+        android:background="@drawable/button_rounded"
+        android:layout_marginBottom="20dp"
+        android:text="Events"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/add_year"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/button_round"
-        android:text="+ Year"/>
+        android:background="@drawable/button_rounded"
+        android:layout_marginBottom="20dp"
+        android:text="Place"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/add_section"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/button_round"
-        android:text="+ Section"/>
+        android:background="@drawable/button_rounded"
+        android:layout_marginBottom="20dp"
+        android:text="Date"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/add_course"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/button_round"
-        android:text="+ Course"/>
+        android:background="@drawable/button_rounded"
+        android:layout_marginBottom="20dp"
+        android:text="Prospects"/>
 
 </LinearLayout>

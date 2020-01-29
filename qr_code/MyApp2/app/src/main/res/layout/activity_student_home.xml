@@ -16,6 +16,9 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#E91E63"
         android:id="@+id/name"/>
 
     <android.support.design.widget.NavigationView
@@ -24,8 +27,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@drawable/bluesplash"
-        app:headerLayout="@layout/nav_header"
+        app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_student_home2_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

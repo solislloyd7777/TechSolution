@@ -7,23 +7,23 @@
         <item
             android:id="@+id/student_list"
             android:icon="@drawable/ic_user"
-            android:title="Student List" />
+            android:title="Prospect List" />
         <item
             android:id="@+id/subject"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Subject" />
+            android:icon="@drawable/event"
+            android:title="Event" />
         <item
             android:id="@+id/course_year_section"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Course, Year, Section" />
+            android:icon="@drawable/date"
+            android:title="Date" />
 
         <item
             android:id="@+id/send"
-            android:icon="@drawable/ic_user"
+            android:icon="@drawable/ic_menu_send"
             android:title="Send Records" />
         <item
             android:id="@+id/security"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/security"
             android:title="Admin Security" />
     </group>
 
@@ -31,11 +31,11 @@
         <menu>
             <item
                 android:id="@+id/logout"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/logout"
                 android:title="Log-out" />
             <item
                 android:id="@+id/close"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/close"
                 android:title="Close App" />
         </menu>
     </item>

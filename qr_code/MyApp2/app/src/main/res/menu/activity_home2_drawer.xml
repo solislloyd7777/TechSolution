@@ -6,24 +6,24 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/manual_user"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_user"
             android:title="SignIn as User" />
         <item
             android:id="@+id/manual_admin"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/admin"
             android:title="SignIn as Admin" />
         <item
             android:id="@+id/add_student"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Add Student" />
+            android:icon="@drawable/prospects"
+            android:title="Add Prospects" />
     </group>
 
     <item android:title="Exit">
         <menu>
             <item
                 android:id="@+id/close"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:icon="@drawable/ic_menu_share"
+                android:title="Send via Gmail" />
         </menu>
     </item>
 

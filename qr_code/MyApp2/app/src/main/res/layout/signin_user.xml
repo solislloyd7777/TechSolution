@@ -6,7 +6,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#ACACA7">
+        android:background="#D7DCB4">
 
         <TextView
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:background="@drawable/button_round"
+        android:background="@drawable/button_rounded"
         android:id="@+id/user_log"/>
 
 </LinearLayout>
